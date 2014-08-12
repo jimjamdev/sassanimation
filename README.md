@@ -11,7 +11,7 @@ The library will be included by default in the upcoming woocss.com framework.
 
 -------------------------------------------
 
-Call an animation settings via include, then appply to your html i.e 
+Call the animation settings via include, then apply to your html i.e 
 
 @include fadeindown;
 @include fadeinup;
