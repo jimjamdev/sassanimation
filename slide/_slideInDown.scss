@@ -1,0 +1,16 @@
+// Slide In Down
+// Only import the keyframes if the animation is set to true. Keeps thhe code small and tidy
+//@include animation(slidedown 1s);
+
+@mixin slideInDown {
+
+    @include keyframes(slideInDown) {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(0%);
+        }
+    }
+
+}

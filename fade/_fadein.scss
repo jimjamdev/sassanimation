@@ -2,11 +2,11 @@
 // Only import the keyframes if the animation is set to true. Keeps thhe code small and tidy
  //@include animation(fadein 1s);
 
-@mixin fadein() {
+@mixin fadeIn() {
 
 
 
-    @include keyframes(fadein) {
+    @include keyframes(fadeIn) {
         0% {
             opacity: 0;
         }

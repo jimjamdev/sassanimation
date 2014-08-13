@@ -1,9 +1,9 @@
 // Fade In Up
 //@include animation(fadeinup 1s);
 
-@mixin fadeinup() {
+@mixin fadeInUp() {
 
-    @include keyframes(fadeinup) {
+    @include keyframes(fadeInUp) {
         0% {
             opacity: 1;
             -webkit-transform: translateY(0);
