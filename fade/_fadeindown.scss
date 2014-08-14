@@ -2,7 +2,7 @@
 //@include animation(fadeindown 1s);
 
 
-@mixin fadeIndown() {
+@mixin fadeInDown() {
 
     @include keyframes(fadeInDown) {
         0% {

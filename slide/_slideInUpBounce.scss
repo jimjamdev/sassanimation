@@ -1,7 +1,3 @@
-// Slide Up
-// Only import the keyframes if the animation is set to true. Keeps the code small and tidy
-//@include animation(slideup 1s);
-
 @mixin slideInUpBounce {
 
     @include keyframes(slideInUpBounce) {
@@ -21,7 +17,7 @@
             transform: translateY(-8%);
         }
         95% {
-            transform: translateY(9%);
+            transform: translateY(8%);
         }
         100% {
             transform: translateY(-100%);

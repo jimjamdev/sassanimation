@@ -1,6 +1,6 @@
 // Slide In Down Bounce
 // Only import the keyframes if the animation is set to true. Keeps thhe code small and tidy
- //@include animation(slideindownbounce 1s);
+ //@include animation('slideInDownBounce 1s 2s infinite');
 
 @mixin slideInDownBounce() {
 
