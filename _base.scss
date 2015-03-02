@@ -1,3 +1,7 @@
+$anim: fadeIn !default;
+$animTime: 1s !default;
+$animDelay: 0s !default;
+$anim-fillmode: forwards !default;
 
 @mixin animation($animate...) {
     $max: length($animate);
@@ -14,6 +18,7 @@
     //-moz-animation:    $animations;
     //-o-animation:      $animations;
     animation:         $animations;
+    opacity:0;
 }
 
 @mixin keyframes($animationName) {
